@@ -1,0 +1,262 @@
+{
+	"id": "3e6000ba-dabb-476e-be12-c2161ebeafa1",
+	"name": "Miniassign",
+	"timestamp": "2022-03-31T06:55:53.368Z",
+	"collection_id": "20275406-83bcaf48-c028-4b19-9110-46ba2457794f",
+	"folder_id": 0,
+	"environment_id": "20275406-c69c821f-d8ef-4e98-9b37-c650b0badea4",
+	"totalPass": 40,
+	"totalFail": 10,
+	"results": [
+		{
+			"id": "2a87e3b8-8b52-4d74-b73a-f5cdcaf2def5",
+			"name": "Get Call",
+			"time": 248,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Content-Type is present": true,
+				"Every user contains title and its type is string": true,
+				"ABC": false
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Every user contains title and its type is string": {
+					"pass": 5,
+					"fail": 0
+				},
+				"ABC": {
+					"pass": 0,
+					"fail": 5
+				}
+			},
+			"times": [
+				300,
+				332,
+				338,
+				261,
+				248
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true,
+					"Every user contains title and its type is string": true,
+					"ABC": false
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true,
+					"Every user contains title and its type is string": true,
+					"ABC": false
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true,
+					"Every user contains title and its type is string": true,
+					"ABC": false
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true,
+					"Every user contains title and its type is string": true,
+					"ABC": false
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true,
+					"Every user contains title and its type is string": true,
+					"ABC": false
+				}
+			]
+		},
+		{
+			"id": "5ab9a759-c109-4cd8-be40-519f5f2c93ab",
+			"name": "PostCall",
+			"time": 324,
+			"responseCode": {
+				"code": 201,
+				"name": "Created"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 4,
+					"fail": 1
+				},
+				"Content-Type is present": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				297,
+				260,
+				557,
+				326,
+				324
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "cd8a8130-f87a-4cc1-baa9-f22ab342cba3",
+			"name": "Put Call",
+			"time": 304,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 5,
+					"fail": 0
+				},
+				"Content-Type is present": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				256,
+				312,
+				304,
+				258,
+				304
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				}
+			]
+		},
+		{
+			"id": "c47501f8-44c4-4c07-9baa-574aa2ddf9f2",
+			"name": "Delete Call",
+			"time": 392,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Response time is less than 400ms": true,
+				"Content-Type is present": true
+			},
+			"testPassFailCounts": {
+				"Response time is less than 400ms": {
+					"pass": 1,
+					"fail": 4
+				},
+				"Content-Type is present": {
+					"pass": 5,
+					"fail": 0
+				}
+			},
+			"times": [
+				536,
+				532,
+				549,
+				433,
+				392
+			],
+			"allTests": [
+				{
+					"Response time is less than 400ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": false,
+					"Content-Type is present": true
+				},
+				{
+					"Response time is less than 400ms": true,
+					"Content-Type is present": true
+				}
+			]
+		}
+	],
+	"count": 5,
+	"totalTime": 7119,
+	"collection": {
+		"requests": [
+			{
+				"id": "2a87e3b8-8b52-4d74-b73a-f5cdcaf2def5",
+				"method": "GET"
+			},
+			{
+				"id": "5ab9a759-c109-4cd8-be40-519f5f2c93ab",
+				"method": "POST"
+			},
+			{
+				"id": "cd8a8130-f87a-4cc1-baa9-f22ab342cba3",
+				"method": "PUT"
+			},
+			{
+				"id": "c47501f8-44c4-4c07-9baa-574aa2ddf9f2",
+				"method": "DELETE"
+			}
+		]
+	}
+}
